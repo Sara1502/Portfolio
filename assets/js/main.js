@@ -22,7 +22,7 @@ function updateProfileInfo(profileData) {
 function updateCargo(profileData) {
     const job = document.getElementById('profile.job')
     job.innerHTML = profileData.job.map(job => `
-        <a href="${job.url}">${job.cargo}</a>    
+        <a href="${job.url}" target="_blank">${job.cargo}</a>    
     `).join('')
 }
 
