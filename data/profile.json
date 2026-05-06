@@ -1,0 +1,90 @@
+{
+  "name": "Sara Moreira",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "cargo": "Analista de TI Júson",
+  "localizacao": "Jaraguá do Sul - SC",
+  "telefone": "(47) 99689-0040",
+  "email": "sara.moreira1520@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Python",
+        "logo": ""
+      },
+      {
+        "name": "javaScript",
+        "logo": ""
+      },
+      {
+        "name": "HTML",
+        "logo": ""
+      },
+      {
+        "name": "CSS",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "educacao": {
+    "cursos": [
+        {
+            "name": "html-insignia",
+            "insignia": ""
+        },
+        {
+            "name": "github-insignia",
+            "insignia": ""
+        }
+    ],
+    "formacao": [
+        {
+            "name": "Univille - Graduação em Engenharia de Software",
+            "localDade": "Joinville (Fev 2022 - Jun 2025)"
+        },
+        {
+            "name": "PUCPR - Pós-Graduação em Cibersegurança",
+            "localDade": "Curitiba (Mai 2026 - Jun 2027)"
+        }
+    ]
+  },
+  "idiomas": [
+    "Português(BR) - Nativo",
+    "Inglês - Intermediário",
+    "Coreano - Básico"
+  ],
+  "portfolio": [
+    {
+      "name": "Criação de uma Pokedex",
+      "url": "https://github.com/Sara1502/Pokedex",
+      "github": true
+    },
+    {
+      "name": "Criação de uma página de método Pomodoro",
+      "url": "https://github.com/Sara1502/Fokus",
+      "github": true
+    },
+    {
+      "name": "Criação de uma wiki do grupo de kpop Dreamcatcher",
+      "url": "https://github.com/Sara1502/wikiKpop",
+      "github": true
+    }
+  ],
+  "experienciaProficional": [
+    {
+      "name": "Analista de TI Júnior / Asteca contabilidade",
+      "period": "Mar 2026 - Atual",
+      "description": "Descrição"
+    },
+    {
+      "name": "Estágiaria / Secretaria de Planejamento Urbano de Joinville(SEPUR)",
+      "period": "Fev 2024 - Jun 2025",
+      "description": "Descrição"
+    }
+  ]
+}
