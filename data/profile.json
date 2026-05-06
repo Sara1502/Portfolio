@@ -1,15 +1,15 @@
 {
   "name": "Sara Moreira",
   "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "cargo": "Analista de TI Júson",
-  "localizacao": "Jaraguá do Sul - SC",
-  "telefone": "(47) 99689-0040",
+  "job": "Analista de TI Júnior",
+  "location": "Jaraguá do Sul - SC",
+  "phone": "(47) 99689-0040",
   "email": "sara.moreira1520@gmail.com",
   "skills": {
     "hardSkills": [
       {
         "name": "Python",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/img/icons/tools/python.svg"
       },
       {
         "name": "javaScript",
@@ -31,8 +31,8 @@
       "Organização"
     ]
   },
-  "educacao": {
-    "cursos": [
+  "education": {
+    "course": [
         {
             "name": "html-insignia",
             "insignia": ""
@@ -42,18 +42,18 @@
             "insignia": ""
         }
     ],
-    "formacao": [
+    "degree": [
         {
-            "name": "Univille - Graduação em Engenharia de Software",
-            "localDade": "Joinville (Fev 2022 - Jun 2025)"
+            "name": "Univille - Bacharelado em Engenharia de Software",
+            "localDate": "Joinville (Fev 2022 - Jun 2025)"
         },
         {
             "name": "PUCPR - Pós-Graduação em Cibersegurança",
-            "localDade": "Curitiba (Mai 2026 - Jun 2027)"
+            "localDate": "Curitiba (Mai 2026 - Jun 2027)"
         }
     ]
   },
-  "idiomas": [
+  "languages": [
     "Português(BR) - Nativo",
     "Inglês - Intermediário",
     "Coreano - Básico"
@@ -75,7 +75,7 @@
       "github": true
     }
   ],
-  "experienciaProficional": [
+  "professionalExperience": [
     {
       "name": "Analista de TI Júnior / Asteca contabilidade",
       "period": "Mar 2026 - Atual",
