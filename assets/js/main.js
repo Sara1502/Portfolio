@@ -43,6 +43,25 @@ function updateLanguages(profileData) {
         `).join('')
 }
 
+function updateCourses(profileData) {
+    const courses = document.getElementById('profile.courses')
+    courses.innerHTML = profileData.education.courses.map(couse => `
+            <li>
+                <img src="${couse.insignia}" alt="${courses.name}" title="${courses.name}"> 
+            </li>
+        `).join('')
+}
+
+function updateDegree(profileData) {
+    const degrees = document.getElementById('profile.degree')
+    degrees.innerHTML = profileData.education.degree.map(degree => `
+        <li>
+            <h3>${degree.name}</h3>
+            <p>${degree.localDate}</p>
+        </li>
+    `).join('')
+}
+
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => `
@@ -53,6 +72,17 @@ function updatePortfolio(profileData) {
         `).join('')
 }
 
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => `
+        <li>
+            <h3 class="title">${experience.name}</h3>
+            <p class="periodo">${experience.period}</p>
+            <p>${experience.description}</p>
+        </li>    
+    `).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
@@ -60,4 +90,7 @@ function updatePortfolio(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateProfessionalExperience(profileData)
+    updateCourses(profileData)
+    updateDegree(profileData)
 })()
