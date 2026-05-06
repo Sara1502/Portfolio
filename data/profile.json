@@ -1,7 +1,10 @@
 {
   "name": "Sara Moreira",
-  "photo": "",
-  "job": "Analista de TI Júnior",
+  "photo": "https://media.licdn.com/dms/image/v2/D4D35AQHJnG5vyNSvhw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1724931368785?e=1778709600&v=beta&t=0appFnqRweJp0HHlND2GlyuWM1YgQNBvLAzx1Uh59CQ",
+  "job": {
+    "cargo": "Analista de TI Júnior",
+    "url": "https://www.linkedin.com/in/sara-moreira-60149a208/" 
+  }, 
   "location": "Jaraguá do Sul - SC",
   "phone": "(47) 99689-0040",
   "email": "sara.moreira1520@gmail.com",
