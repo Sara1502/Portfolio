@@ -7,9 +7,6 @@ function updateProfileInfo(profileData) {
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
 
-    const job = document.getElementById('profile.job')
-    job.innerText = profileData.job
-
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
 
@@ -20,6 +17,13 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = 'mailto:${profile.email}'
+}
+
+function updateCargo(profileData) {
+    const job = document.getElementById('profile.job')
+    job.innerHTML = profileData.job.map(job => `
+        <a href="${job.url}">${job.cargo}</a>    
+    `).join('')
 }
 
 function updateSoftSkills(profileData) {
@@ -86,6 +90,7 @@ function updateProfessionalExperience(profileData) {
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
+    updateCargo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
