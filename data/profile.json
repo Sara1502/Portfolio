@@ -1,7 +1,10 @@
 {
   "name": "Sara Moreira",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Analista de TI Júnior",
+  "photo": "",
+  "job": {
+    "job": "Analista de TI Júnior",
+    "link": "https://github.com/Sara1502"
+  },
   "location": "Jaraguá do Sul - SC",
   "phone": "(47) 99689-0040",
   "email": "sara.moreira1520@gmail.com",
