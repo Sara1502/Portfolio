@@ -1,11 +1,10 @@
-
 .portfolio {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
     list-style: none;
 }
 
@@ -16,26 +15,17 @@
     margin: 1rem 0;
 }
 
-.portfolio li .title {
+.portfolio li h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-weight: 700;
     font-size: 1.25rem;
+    font-weight: 700;
     margin: 0;
     margin-bottom: .5rem;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.portfolio li .title.github::before {
+.portfolio li h3.github::before {
     content: '';
     display: inline-block;
     width: 1rem;
@@ -45,4 +35,3 @@ a:hover {
     background-image: url('/assets/img/icons/github.svg');
     margin-right: .5rem;
 }
-
