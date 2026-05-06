@@ -1,7 +1,7 @@
 
 .skills {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 } 
 
 .skills .ferramentas ul {
@@ -15,7 +15,7 @@
     list-style: none;
 }
 
-.skills .ferramentas ul li img {
+.skills .ferramentas img {
     max-width: 50px;
     margin: 0 .5rem;
 }

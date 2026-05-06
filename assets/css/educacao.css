@@ -1,0 +1,31 @@
+
+.educacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.educacao .cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.educacao .cursos ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+}
+
+.educacao .cursos img {
+    max-width: 80px;
+    margin: 0 .5rem;
+}
+
+.educacao ul {
+    list-style: none;
+}
