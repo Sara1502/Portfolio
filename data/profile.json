@@ -14,19 +14,19 @@
     "hardSkills": [
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/icons/tools/python.svg"
+        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/mainassets/img/icons/tools/python.svg"
       },
       {
         "name": "javaScript",
-        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/icons/tools/js.svg"
+        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/mainassets/img/icons/tools/js.svg"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/icons/tools/html.svg"
+        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/mainassets/img/icons/tools/html.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/icons/tools/css.svg"
+        "logo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/mainassets/img/icons/tools/css.svg"
       }
     ],
     "softSkills": [
@@ -40,11 +40,11 @@
     "courses": [
         {
             "name": "html-insignia",
-            "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/html-incignia.png"
+            "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/mainassets/img/html-incignia.png"
         },
         {
             "name": "github-insignia",
-            "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/guthub-incignia.png"
+            "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/mainassets/img/guthub-incignia.png"
         }
     ],
     "degree": [
