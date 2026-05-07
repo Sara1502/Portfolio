@@ -12,11 +12,11 @@ function updateProfileInfo(profileData) {
 
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
-    phone.href = `tel:${profile.phone}`
+    phone.href = 'tel:${profile.phone}'
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-    email.href = `mailto:${profile.email}`
+    email.href = 'mailto:${profile.email}'
 }
 
 function updateCargo(profileData) {
