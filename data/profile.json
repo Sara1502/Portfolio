@@ -47,6 +47,10 @@
             "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/html-insignia.png"
         },
         {
+            "name": "css-insignia",
+            "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/css-insignia.png"
+        },
+        {
             "name": "github-insignia",
             "insignia": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/guthub-insignia.png"
         }
