@@ -73,6 +73,11 @@
   ],
   "portfolio": [
     {
+      "name": "App web de clima/tempo",
+      "url": "https://github.com/Sara1502/weather-app",
+      "github": true
+    },
+    {
       "name": "Criação de uma Pokedex",
       "url": "https://github.com/Sara1502/Pokedex",
       "github": true
