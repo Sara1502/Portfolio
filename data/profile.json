@@ -2,7 +2,12 @@
   "name": "Sara Moreira",
   "photo": "https://raw.githubusercontent.com/Sara1502/Portfolio/refs/heads/main/assets/img/foto-perfil.jpeg",
   "location": "Jaraguá do Sul - SC",
-  "phone": "(47) 99689-0040",
+  "phone": [
+    {
+      "number": "(47) 99689-0040",
+      "url": "https://wa.link/9so3rk"
+    }
+  ],
   "email": "sara.moreira1520@gmail.com",
   "job": [
     {
