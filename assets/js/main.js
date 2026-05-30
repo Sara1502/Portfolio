@@ -14,7 +14,6 @@ function updateProfileInfo(profileData) {
     phone.innerHTML = profileData.phone.map(phone => `
         <a href="${phone.url}" target:_blank>${phone.number}</a>
         `)
-    phone.href = 'tel:${profile.phone}'
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
